@@ -22,7 +22,6 @@ DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
 [dialogue_manager]
 
 general/wrap_lines=true
-general/custom_test_scene_path="res://addons/dialogue_manager/test_scene.tscn"
 
 [display]
 
