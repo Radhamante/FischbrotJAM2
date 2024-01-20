@@ -1,2 +1,1 @@
-res://Scenes/Levels/MainLevel.tscn
-res://Object/pnj/Scripts/pnj.gd
+res://Scenes/Levels/TileMap.tscn
