@@ -52,5 +52,6 @@ func _on_line_edit_text_submitted(new_text):
 	ray.target_position = desired_step
 	ray.force_raycast_update()
 	if ray.is_colliding():
-		print(ray.get_collider().interact(new_text))
+		ray.get_collider().interact(new_text)
+		
 

@@ -118,9 +118,6 @@ frame_progress = 0.164228
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_xhogy")
 
-[node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(2.5, 2.5)
-
 [node name="Control" type="Control" parent="."]
 layout_mode = 3
 anchors_preset = 8
