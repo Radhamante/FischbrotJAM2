@@ -48,10 +48,12 @@ func _on_line_edit_focus_exited():
 
 
 func _on_line_edit_text_submitted(new_text):
+	print("testttest" + new_text)
 	var desired_step: Vector2 = last_input_direction * TILE_SIZE
 	ray.target_position = desired_step
 	ray.force_raycast_update()
 	if ray.is_colliding():
+		print()
 		ray.get_collider().interact(new_text)
 		
 
