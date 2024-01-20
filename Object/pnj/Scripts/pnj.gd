@@ -6,4 +6,6 @@ extends Node2D
 
 func interact(text):
 	if text == password:
-		await DialogueManager.get_next_dialogue_line(load("res://Dialogues/main.dialogue"), pnj_name)
+		#print(load("res://Dialogues/main.dialogue"))
+		await DialogueManager.show_example_dialogue_balloon(load("res://Dialogues/main.dialogue"), pnj_name)
+

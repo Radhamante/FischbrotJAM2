@@ -4154,11 +4154,11 @@ layer_4/tile_data = PackedInt32Array(720927, 393217, 36, 655391, 393217, 34, 589
 
 [node name="Mom" parent="PNJ" instance=ExtResource("7_fhkij")]
 position = Vector2(624, 448)
-pnj_name = "Maman"
+pnj_name = "Mom"
 
 [node name="Dad" parent="PNJ" instance=ExtResource("7_fhkij")]
 position = Vector2(568, 376)
-pnj_name = "Papa"
+pnj_name = "Dad"
 
 [node name="Lumber" parent="PNJ" instance=ExtResource("7_fhkij")]
 position = Vector2(696, 320)

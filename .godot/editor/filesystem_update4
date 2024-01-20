@@ -1,2 +1,6 @@
 res://Scenes/Levels/MainLevel.tscn
 res://Object/pnj/Scripts/pnj.gd
+res://Dialogues/balloon.tscn
+res://Dialogues/balloon.gd
+res://Character/player.tscn
+res://Dialogues/small_balloon.tscn

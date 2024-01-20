@@ -1,8 +1,9 @@
-[gd_scene load_steps=16 format=3 uid="uid://dhjahduqke6r7"]
+[gd_scene load_steps=17 format=3 uid="uid://dhjahduqke6r7"]
 
 [ext_resource type="Script" path="res://Character/Scripts/movements.gd" id="1_hxc5g"]
 [ext_resource type="Texture2D" uid="uid://x1bhejmle5mi" path="res://Character/Sprites/char_07.png" id="2_cbtw8"]
 [ext_resource type="Script" path="res://Character/Scripts/LineEdit.gd" id="3_5g4gc"]
+[ext_resource type="PackedScene" uid="uid://73jm5qjy52vq" path="res://Dialogues/balloon.tscn" id="3_wv7kh"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_a43fh"]
 atlas = ExtResource("2_cbtw8")
@@ -117,6 +118,8 @@ frame_progress = 0.164228
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_xhogy")
+
+[node name="ExampleBalloon" parent="." instance=ExtResource("3_wv7kh")]
 
 [node name="Control" type="Control" parent="."]
 layout_mode = 3
